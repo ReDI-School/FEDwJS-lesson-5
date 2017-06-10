@@ -1,26 +1,25 @@
 * {
-    box-sizing:border-box;
+  box-sizing: border-box;
 }
 #game {
-    max-width:600px;
-    margin:auto;
+  max-width: 600px;
+  margin: auto;
 }
 
 .square {
-    width:31.33%;
-    margin:1%;
-    border:1px solid black;
-    float:left;
-    padding-top:31.33%;
-    position:relative;
+  width: 31.33%;
+  margin: 1%;
+  border: 1px solid black;
+  float: left;
+  padding-top: 31.33%;
+  position: relative;
 }
 
 .square.x:before {
-    content:"x";
-    position:absolute;
-    top:0;
-    width:100%;
-    font-size:3em;
-    text-align:center;
-
+  content: "x";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  font-size: 3em;
+  text-align: center;
 }
